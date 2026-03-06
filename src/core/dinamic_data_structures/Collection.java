@@ -5,13 +5,13 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 
-public class Collections {
+public class Collection {
     private ArrayList arrayList;
     private LinkedList linkedList;
     private HashSet hashSet;
     private HashMap hashMap;
 
-    public Collections() {
+    public Collection() {
 
     }
 
