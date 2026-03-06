@@ -12,10 +12,22 @@ public class Collections {
     private HashMap hashMap;
 
     public Collections() {
-        this.arrayList = new ArrayList();
-        this.linkedList = new LinkedList<>();
-        this.hashSet = new HashSet();
-        this.hashMap = new HashMap();
+
     }
 
+    public void setArrayList(ArrayList arrayList) {
+        this.arrayList = arrayList;
+    }
+
+    public void setLinkedList(LinkedList linkedList) {
+        this.linkedList = linkedList;
+    }
+
+    public void setHashSet(HashSet hashSet) {
+        this.hashSet = hashSet;
+    }
+
+    public void setHashMap(HashMap hashMap) {
+        this.hashMap = hashMap;
+    }
 }
