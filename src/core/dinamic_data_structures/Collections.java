@@ -1,6 +1,9 @@
 package core.dinamic_data_structures;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
 
 public class Collections {
     private ArrayList arrayList;
