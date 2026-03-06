@@ -11,7 +11,7 @@ public class Recusividad {
         }
     }
 
-    public static int factorial(int n) {
+    public static long factorial(int n) {
         if (n == 1) {
             return 1;
         } else {
