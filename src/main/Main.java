@@ -1,10 +1,7 @@
 package main;
 
-import core.dinamic_data_structures.Collection;
-import core.users.Player;
-import core.users.Wither;
-
-import java.util.*;
+import core.entities.Player;
+import core.entities.Wither;
 
 public class Main {
     public static void main(String[] args) {

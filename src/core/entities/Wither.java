@@ -1,4 +1,4 @@
-package core.users;
+package core.entities;
 
 public class Wither implements Entity {
 
