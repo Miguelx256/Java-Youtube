@@ -1,6 +1,6 @@
 package core.users;
 
-public class Player {
+public class Player implements Entity {
     private String name;
     private int ID;
 
@@ -31,5 +31,15 @@ public class Player {
                 "name='" + name + '\'' +
                 ", ID=" + ID +
                 '}';
+    }
+
+    @Override
+    public void attack() {
+        System.out.println("jugador " + this.name + " atacando");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("jugador " + this.name + " moviendose en el suelo");
     }
 }
